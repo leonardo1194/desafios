@@ -70,3 +70,11 @@ form button:hover {
     display: none;
     transition: all 0.1s ease;
 }
+
+@media screen and (max-width: 767px) {
+    form input,
+    form button,
+    #resultado {
+        margin: 10px;
+    }
+}
